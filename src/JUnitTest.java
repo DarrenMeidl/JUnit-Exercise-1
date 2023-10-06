@@ -91,8 +91,75 @@ class JUnitTest {
 
     //Q2 METHOD TESTS
     @Test
-    void nice(){
+    void OneTwoThree(){
+        System.out.println("TEST 1: 1,2,3");
+        int num1 = 1;
+        int num2 = 2;
+        int num3 = 3;
+        int expected = 3;
+        JUnit j = new JUnit();
+        int actual = j.checkLargest(num1, num2, num3);
+        assertEquals(expected, actual);
+    }
 
+    @Test
+    void ThreeTwoOne(){
+        System.out.println("TEST 2: 3,2,1");
+        int num1 = 3;
+        int num2 = 2;
+        int num3 = 1;
+        int expected = 3;
+        JUnit j = new JUnit();
+        int actual = j.checkLargest(num1, num2, num3);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void ThreeOneTwo(){
+        System.out.println("TEST 3: 3,1,2");
+        int num1 = 3;
+        int num2 = 1;
+        int num3 = 2;
+        int expected = 3;
+        JUnit j = new JUnit();
+        int actual = j.checkLargest(num1, num2, num3);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void MinusThreeTwoOne(){
+        System.out.println("TEST 4: -3,2,1");
+        int num1 = -3;
+        int num2 = 2;
+        int num3 = 1;
+        int expected = 2;
+        JUnit j = new JUnit();
+        int actual = j.checkLargest(num1, num2, num3);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void MinusThreeMinusTwoMinusOne(){
+        System.out.println("TEST 5: -3,-2,-1");
+        int num1 = -3;
+        int num2 = -2;
+        int num3 = -1;
+        int expected = -1;
+        JUnit j = new JUnit();
+        int actual = j.checkLargest(num1, num2, num3);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void MinusThreeMinusTwoZero(){
+        System.out.println("TEST 6: -3,-2,0");
+        int num1 = -3;
+        int num2 = -2;
+        int num3 = 0;
+        int expected = 0;
+        JUnit j = new JUnit();
+        int actual = j.checkLargest(num1, num2, num3);
+        assertEquals(expected, actual);
     }
 
 }
