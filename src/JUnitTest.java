@@ -90,6 +90,7 @@ class JUnitTest {
 
 
     //Q2 METHOD TESTS
+    /*
     @Test
     void OneTwoThree(){
         System.out.println("TEST 1: 1,2,3");
@@ -162,4 +163,11 @@ class JUnitTest {
         assertEquals(expected, actual);
     }
 
+     */
+
+    //Q3 METHOD TESTS
+    @Test
+    void test(){
+
+    }
 }
