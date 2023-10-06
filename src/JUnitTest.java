@@ -167,7 +167,12 @@ class JUnitTest {
 
     //Q3 METHOD TESTS
     @Test
-    void test(){
-
+    void name(){
+        System.out.println("TEST 1: name");
+        String letters = "name";
+        String expected = "mena";
+        JUnit j = new JUnit();
+        String actual = j.swap(letters);
+        assertEquals(expected, actual);
     }
 }

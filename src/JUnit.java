@@ -24,7 +24,7 @@ public class JUnit {
 
     //Q3 METHOD
     public String swap(String letters){
-        String newLetters = letters.substring(2, 3) + letters.substring(0, 1);
+        String newLetters = letters.substring(2, 4) + letters.substring(0, 2);
         return newLetters;
     }
 }
