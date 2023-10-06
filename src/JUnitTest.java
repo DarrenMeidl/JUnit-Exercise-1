@@ -166,6 +166,7 @@ class JUnitTest {
      */
 
     //Q3 METHOD TESTS
+    /*
     @Test
     void name(){
         System.out.println("TEST 1: name");
@@ -175,4 +176,38 @@ class JUnitTest {
         String actual = j.swap(letters);
         assertEquals(expected, actual);
     }
+
+    @Test
+    void hell(){
+        System.out.println("TEST 2: HELL");
+        String letters = "HELL";
+        String expected = "LLHE";
+        JUnit j = new JUnit();
+        String actual = j.swap(letters);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void joHn(){
+        System.out.println("TEST 3: joHn");
+        String letters = "joHn";
+        String expected = "Hnjo";
+        JUnit j = new JUnit();
+        String actual = j.swap(letters);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void Hnjo(){
+        System.out.println("TEST 4: Hnjo");
+        String letters = "Hnjo";
+        String expected = "joHn";
+        JUnit j = new JUnit();
+        String actual = j.swap(letters);
+        assertEquals(expected, actual);
+    }
+
+     */
+
+
 }

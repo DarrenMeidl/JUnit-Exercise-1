@@ -12,7 +12,7 @@ public class JUnit {
 
     //Q2 METHOD
     public int checkLargest(int num1, int num2, int num3){
-        int largest = num1;
+/*        int largest = num1;
         if (num2 > largest){
             largest = num2;
         }
@@ -20,6 +20,10 @@ public class JUnit {
             largest = num3;
         }
         return largest;
+
+
+ */
+        return Math.max (num1, (Math.max (num2, num3)));
     }
 
     //Q3 METHOD
